@@ -1,0 +1,125 @@
+<html>
+
+<head>
+
+    <!-- Load ioBroker scripts and styles-->
+    <link rel="stylesheet" type="text/css" href="../../css/adapter.css" />
+    <link rel="stylesheet" type="text/css" href="../../lib/css/materialize.css">
+
+    <script type="text/javascript" src="../../lib/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../../socket.io/socket.io.js"></script>
+
+    <script type="text/javascript" src="../../js/translate.js"></script>
+    <script type="text/javascript" src="../../lib/js/materialize.js"></script>
+
+    <!-- Selection Box added from https://forum.iobroker.net/topic/10186/adapterentwicklung-object-id-baum/6 -->
+    <script type="text/javascript" src="../../lib/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/jquery.fancytree-all.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/selectID.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/fancytree/ui.fancytree.min.css"/>
+
+    <script type="text/javascript" src="../../js/adapter-settings.js"></script>
+
+    <!-- Load our own files -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="words.js"></script>
+    <script type="text/javascript" src="index_m.js"></script>
+
+</head>
+
+<body>
+
+    <div class="m adapter-container">
+
+        <div class="row">
+            <div class="col s12 m4 l2">
+                <img src="schrift.png" class="logo">
+            </div>
+        </div>
+
+        <!-- Put your content here -->
+        <!-- Selection Box added from https://forum.iobroker.net/topic/10186/adapterentwicklung-object-id-baum/6 -->
+        <div id="dialog-select-member" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 title"></div>
+                </div>
+                <div class="row">
+                    <div class="col s12 dialog-content">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="modal-action modal-close waves-effect waves-green btn btn-set"><i class="large material-icons left">check_circle</i><span class="translate">Select</span></a>
+                <a class="modal-action modal-close waves-effect waves-green btn btn-close"><i class="large material-icons left">cancel</i><span class="translate">Cancel</span></a>
+            </div>
+        </div>
+        <!-- For example columns with settings: -->
+        <div class="row">
+            <div class="col s12">
+                <h5>General Settings</h5>
+                <p>All required settings to operate the adapter</p>
+            </div>
+            <div class="col s5 input-field">
+                <input type="text" class="value" id="serverName" />
+                <label for="serverName" class="translate">serverName</label>
+            </div>
+            <div class="col s5 input-field">
+                <input type="text" class="value" id="serverInterval" />
+                <label for="serverInterval" class="translate">serverInterval</label>
+            </div>
+            <div class="col s5 input-field">
+                <input type="text" class="value" id="ampUpdateInterval" />
+                <label for="ampUpdateInterval" class="translate">ampUpdateInterval</label>
+            </div>
+            <div class="col s5 input-field">
+                <input type="checkbox" class="value" id="sentryEnabled" />
+                <label for="sentryEnabled" class="translate">sentryEnabled</label>
+            </div>
+            <div class="col s5 input-field">
+                <input type="checkbox" class="value" id="writeTemperatureArray" />
+                <label for="writeTemperatureArray" class="translate">writeTemperatureArray</label>
+            </div>
+            <!-- div class="col s5 input-field">
+                <input type="checkbox" class="value" id="stopIfLessAmperes" />
+                <label for="stopIfLessAmperes" class="translate">stopIfLessAmperes</label>
+            </div -->
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <h5>Foreign Objects</h5>
+                <p>In these settings you can select Object from foreign Adapters. This makes may be an own script not nessesscary anymore.</p>
+            </div>
+            <div class="col s5 input-field">
+                <input class="value" id="solarPowerForeignObjectID"/>
+                <label id="solarPowerLbl" for="solarPowerForeignObjectID" class="translate">solarPowerForeignObjectID</label>
+                <button id="solarPowerForeignSearch">...</button>
+            </div>
+            <div class="col s5 input-field">
+                <input type="text" class="value" id="bufferToSolar" />
+                <label id="bufferToSolarLbl" for="bufferToSolar" class="translate">bufferToSolar</label>
+            </div>
+            <div class="col s5 input-field">
+                <input class="value" id="houseConsumptionForeignObjectID"/>
+                <label id="houseConsumptionLbl" for="houseConsumptionForeignObjectID" class="translate">houseConsumptionForeignObjectID</label>
+                <button id="houseConsumptionForeignSearch">...</button>
+            </div>
+            <div class="col s5 input-field">
+                <input class="value" id="houseBatteryForeignObjectID"/>
+                <label id="houseBatteryLbl" for="houseBatteryForeignObjectID" class="translate">houseBatteryForeignObjectID</label>
+                <button id="houseBatteryForeignSearch">...</button>
+            </div>
+            <div class="col s5 input-field">
+                <input type="text" class="value" id="bufferToBattery" />
+                <label id="bufferToBatteryLbl" for="bufferToBattery" class="translate">bufferToBattery</label>
+            </div>
+            <div class="col s12">
+                <p>The script is using the following formular:</p>
+                <pre>(solarPower - bufferToSolar) {must be lager than 0} - houseConsumtion + (houseBattery - bufferToBattery) {must be larger than 0}</pre>
+                <p>This will be used in the function <pre>adjustAmpLevelInWatts</pre></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,558 @@
+2022-02-19 12:54:34.784  - [32minfo[39m: host.46e40508c240 iobroker.js-controller version 3.3.22 js-controller starting
+2022-02-19 12:54:34.795  - [32minfo[39m: host.46e40508c240 Copyright (c) 2014-2021 bluefox, 2014 hobbyquaker
+2022-02-19 12:54:34.796  - [32minfo[39m: host.46e40508c240 hostname: 46e40508c240, node: v14.19.0
+2022-02-19 12:54:34.796  - [32minfo[39m: host.46e40508c240 ip addresses: 172.21.0.3
+2022-02-19 12:54:35.127  - [32minfo[39m: host.46e40508c240 connected to Objects and States
+2022-02-19 12:54:35.217  - [32minfo[39m: host.46e40508c240 added notifications configuration of host
+2022-02-19 12:54:35.614  - [32minfo[39m: host.46e40508c240 3 instances found
+2022-02-19 12:54:35.629  - [32minfo[39m: host.46e40508c240 starting 3 instances
+2022-02-19 12:54:35.699  - [32minfo[39m: host.46e40508c240 instance system.adapter.admin.0 started with pid 524
+2022-02-19 12:54:35.868  - [32minfo[39m: host.46e40508c240 Created UUID: d33287fd-b202-44af-9bfb-5deab9cde6e0
+2022-02-19 12:54:38.371  - [32minfo[39m: admin.0 (524) starting. Version 5.2.3 in /opt/iobroker/node_modules/iobroker.admin, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 12:54:38.441  - [32minfo[39m: admin.0 (524) requesting all states
+2022-02-19 12:54:38.442  - [32minfo[39m: admin.0 (524) requesting all objects
+2022-02-19 12:54:38.568  - [32minfo[39m: admin.0 (524) received all objects
+2022-02-19 12:54:38.613  - [32minfo[39m: admin.0 (524) Request actual repository...
+2022-02-19 12:54:38.634  - [32minfo[39m: host.46e40508c240 Updating repository "default" under "http://download.iobroker.net/sources-dist.json"
+2022-02-19 12:54:38.644  - [32minfo[39m: admin.0 (524) http server listening on port 8081
+2022-02-19 12:54:38.645  - [32minfo[39m: admin.0 (524) Use link "http://localhost:8081" to configure.
+2022-02-19 12:54:39.134  - [33mwarn[39m: admin.0 (524) Repository cannot be read. Active repo: default
+2022-02-19 12:54:40.894  - [32minfo[39m: admin.0 (524) Repository received successfully.
+2022-02-19 12:54:41.521  - [32minfo[39m: host.46e40508c240 instance system.adapter.discovery.0 started with pid 539
+2022-02-19 12:54:43.669  - [32minfo[39m: host.46e40508c240 instance system.adapter.backitup.0 started with pid 550
+2022-02-19 12:54:43.678  - [32minfo[39m: discovery.0 (539) starting. Version 2.7.3 in /opt/iobroker/node_modules/iobroker.discovery, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 12:54:46.091  - [32minfo[39m: backitup.0 (550) starting. Version 2.2.3 in /opt/iobroker/node_modules/iobroker.backitup, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 12:54:46.172  - [32minfo[39m: backitup.0 (550) [iobroker] backup was activated at 02:40 every 1 day(s)
+2022-02-19 13:15:09.971  - [32minfo[39m: host.46e40508c240 stopInstance system.adapter.admin.0 (force=false, process=true)
+2022-02-19 13:15:09.989  - [32minfo[39m: host.46e40508c240 stopInstance system.adapter.admin.0 send kill signal
+2022-02-19 13:15:09.995  - [32minfo[39m: admin.0 (524) Got terminate signal TERMINATE_YOURSELF
+2022-02-19 13:15:10.014  - [32minfo[39m: admin.0 (524) terminating http server on port 8081
+2022-02-19 13:15:10.017  - [32minfo[39m: admin.0 (524) terminating
+2022-02-19 13:15:10.021  - [32minfo[39m: admin.0 (524) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-02-19 13:15:10.596  - [32minfo[39m: host.46e40508c240 instance system.adapter.admin.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2022-02-19 13:15:13.052  - [32minfo[39m: host.46e40508c240 instance system.adapter.admin.0 started with pid 1576
+2022-02-19 13:15:15.688  - [32minfo[39m: admin.0 (1576) starting. Version 5.2.3 in /opt/iobroker/node_modules/iobroker.admin, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 13:15:15.757  - [32minfo[39m: admin.0 (1576) requesting all states
+2022-02-19 13:15:15.759  - [32minfo[39m: admin.0 (1576) requesting all objects
+2022-02-19 13:15:16.173  - [32minfo[39m: admin.0 (1576) received all objects
+2022-02-19 13:15:16.591  - [32minfo[39m: admin.0 (1576) http server listening on port 8081
+2022-02-19 13:15:16.592  - [32minfo[39m: admin.0 (1576) Use link "http://localhost:8081" to configure.
+2022-02-19 13:15:16.773  - [31merror[39m: admin.0 (1576) failed connection to socket.io from ::ffff:192.168.178.54:
+2022-02-19 13:15:16.778  - [31merror[39m: admin.0 (1576) error
+2022-02-19 13:15:16.899  - [31merror[39m: admin.0 (1576) failed connection to socket.io from ::ffff:192.168.178.54:
+2022-02-19 13:15:16.901  - [31merror[39m: admin.0 (1576) error
+2022-02-19 13:15:17.031  - [31merror[39m: admin.0 (1576) failed connection to socket.io from ::ffff:192.168.178.54:
+2022-02-19 13:15:17.032  - [31merror[39m: admin.0 (1576) error
+2022-02-19 13:15:53.117  - [32minfo[39m: discovery.0 (539) Discovering devices with a HF-LPB100 chipset...
+2022-02-19 13:15:53.155  - [32minfo[39m: discovery.0 (539) Discovering mDNS devices...
+2022-02-19 13:15:53.165  - [32minfo[39m: discovery.0 (539) Discovering ping devices...
+2022-02-19 13:15:53.357  - [32minfo[39m: discovery.0 (539) Discovering UPnP devices...
+2022-02-19 13:15:53.364  - [32minfo[39m: discovery.0 (539) Discovering wifi-mi-light devices...
+2022-02-19 13:15:53.419  - [33mwarn[39m: discovery.0 (539) tr-064.0 not installed
+2022-02-19 13:15:53.420  - [32minfo[39m: discovery.0 (539) Done discovering tr064 devices. 0 packages received
+2022-02-19 13:15:55.369  - [32minfo[39m: discovery.0 (539) Done discovering wifi-mi-light devices. 0 packages received
+2022-02-19 13:15:58.205  - [32minfo[39m: discovery.0 (539) Done discovering udp devices. 1 packages received
+2022-02-19 13:16:03.123  - [32minfo[39m: discovery.0 (539) Done discovering HF-LPB100 devices. 0 packages received
+2022-02-19 13:16:08.161  - [32minfo[39m: discovery.0 (539) Done discovering mdns devices. 0 packages received
+2022-02-19 13:16:08.358  - [32minfo[39m: discovery.0 (539) Done discovering upnp devices. 0 packages received
+2022-02-19 13:16:09.280  - [32minfo[39m: discovery.0 (539) Done discovering ping devices. 3 packages received
+2022-02-19 13:16:09.365  - [32minfo[39m: discovery.0 (539) Found 5 addresses
+2022-02-19 13:16:35.004  - [32minfo[39m: discovery.0 (539) Discovery finished. Found new or modified 10 instances
+2022-02-19 13:16:35.075  - [32minfo[39m: discovery.0 (539) Discovery finished
+2022-02-19 13:17:25.712  - [32minfo[39m: host.46e40508c240 iobroker install ping
+2022-02-19 13:17:29.203  - [32minfo[39m: host.46e40508c240 iobroker NPM version: 6.14.16
+2022-02-19 13:17:29.206  - [32minfo[39m: host.46e40508c240 iobroker npm install iobroker.ping@1.5.0 --loglevel error --prefix "/opt/iobroker" (System call)
+2022-02-19 13:17:53.389  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 install adapter ping
+2022-02-19 13:17:53.475  - [32minfo[39m: host.46e40508c240 iobroker upload [13] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/words.js words.js application/javascript
+2022-02-19 13:17:53.596  - [32minfo[39m: host.46e40508c240 iobroker upload [12] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/ping.png ping.png image/png
+2022-02-19 13:17:53.666  - [32minfo[39m: host.46e40508c240 iobroker upload [11] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/index_m.html index_m.html text/html
+2022-02-19 13:17:53.735  - [32minfo[39m: host.46e40508c240 iobroker upload [10] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/index.html index.html text/html
+2022-02-19 13:17:53.795  - [32minfo[39m: host.46e40508c240 iobroker upload [9] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/zh-cn/translations.json i18n/zh-cn/translations.json application/json
+2022-02-19 13:17:53.863  - [32minfo[39m: host.46e40508c240 iobroker upload [8] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/ru/translations.json i18n/ru/translations.json application/json
+2022-02-19 13:17:53.928  - [32minfo[39m: host.46e40508c240 iobroker upload [7] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/pt/translations.json i18n/pt/translations.json application/json
+2022-02-19 13:17:53.990  - [32minfo[39m: host.46e40508c240 iobroker upload [6] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/pl/translations.json i18n/pl/translations.json application/json
+2022-02-19 13:17:54.056  - [32minfo[39m: host.46e40508c240 iobroker upload [5] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/nl/translations.json i18n/nl/translations.json application/json
+2022-02-19 13:17:54.119  - [32minfo[39m: host.46e40508c240 iobroker upload [4] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/it/translations.json i18n/it/translations.json application/json
+2022-02-19 13:17:54.183  - [32minfo[39m: host.46e40508c240 iobroker upload [3] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/fr/translations.json i18n/fr/translations.json application/json
+2022-02-19 13:17:54.246  - [32minfo[39m: host.46e40508c240 iobroker upload [2] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/es/translations.json i18n/es/translations.json application/json
+2022-02-19 13:17:54.308  - [32minfo[39m: host.46e40508c240 iobroker upload [1] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/en/translations.json i18n/en/translations.json application/json
+2022-02-19 13:17:54.370  - [32minfo[39m: host.46e40508c240 iobroker upload [0] ping.admin /opt/iobroker/node_modules/iobroker.ping/admin/i18n/de/translations.json i18n/de/translations.json application/json
+2022-02-19 13:17:54.498  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.ping created/updated
+2022-02-19 13:17:55.583  - [32minfo[39m: host.46e40508c240 iobroker exit 0
+2022-02-19 13:17:56.831  - [31merror[39m: admin.0 (1576) Object system.adapter.ping.0 not exist!
+2022-02-19 13:17:56.900  - [32minfo[39m: host.46e40508c240 Set hostname 46e40508c240 for system.adapter.ping.0
+2022-02-19 13:17:56.972  - [32minfo[39m: host.46e40508c240 iobroker install info
+2022-02-19 13:18:00.195  - [32minfo[39m: host.46e40508c240 iobroker NPM version: 6.14.16
+2022-02-19 13:18:00.198  - [32minfo[39m: host.46e40508c240 iobroker npm install iobroker.info@1.9.8 --loglevel error --prefix "/opt/iobroker" (System call)
+2022-02-19 13:18:20.878  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 install adapter info
+2022-02-19 13:18:21.468  - [32minfo[39m: host.46e40508c240 iobroker upload [80] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/js/showdown.min.js lib/js/showdown.min.js application/javascript
+2022-02-19 13:18:22.083  - [32minfo[39m: host.46e40508c240 iobroker upload [70] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/js/feednami.min.js lib/js/feednami.min.js application/javascript
+2022-02-19 13:18:22.743  - [32minfo[39m: host.46e40508c240 iobroker upload [60] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/logos/xubuntu.png lib/img/logos/xubuntu.png image/png
+2022-02-19 13:18:23.347  - [32minfo[39m: host.46e40508c240 iobroker upload [50] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/logos/pclinuxos.png lib/img/logos/pclinuxos.png image/png
+2022-02-19 13:18:23.926  - [32minfo[39m: host.46e40508c240 iobroker upload [40] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/logos/freebsd.png lib/img/logos/freebsd.png image/png
+2022-02-19 13:18:24.527  - [32minfo[39m: host.46e40508c240 iobroker upload [30] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/icons/usb.png lib/img/icons/usb.png image/png
+2022-02-19 13:18:25.126  - [32minfo[39m: host.46e40508c240 iobroker upload [20] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/icons/bluetooth.png lib/img/icons/bluetooth.png image/png
+2022-02-19 13:18:25.189  - [32minfo[39m: host.46e40508c240 iobroker upload [19] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/icons/battery.png lib/img/icons/battery.png image/png
+2022-02-19 13:18:25.253  - [32minfo[39m: host.46e40508c240 iobroker upload [18] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/icons/audio.png lib/img/icons/audio.png image/png
+2022-02-19 13:18:25.318  - [32minfo[39m: host.46e40508c240 iobroker upload [17] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/clock/sechand.png lib/img/clock/sechand.png image/png
+2022-02-19 13:18:25.384  - [32minfo[39m: host.46e40508c240 iobroker upload [16] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/clock/minhand.png lib/img/clock/minhand.png image/png
+2022-02-19 13:18:25.449  - [32minfo[39m: host.46e40508c240 iobroker upload [15] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/clock/hourhand.png lib/img/clock/hourhand.png image/png
+2022-02-19 13:18:25.515  - [32minfo[39m: host.46e40508c240 iobroker upload [14] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/img/clock/clockface.png lib/img/clock/clockface.png image/png
+2022-02-19 13:18:25.580  - [32minfo[39m: host.46e40508c240 iobroker upload [13] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/fonts/fontawesome-webfont.woff2 lib/fonts/fontawesome-webfont.woff2 font/woff2
+2022-02-19 13:18:25.648  - [32minfo[39m: host.46e40508c240 iobroker upload [12] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/fonts/fontawesome-webfont.woff lib/fonts/fontawesome-webfont.woff font/woff
+2022-02-19 13:18:25.713  - [32minfo[39m: host.46e40508c240 iobroker upload [11] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/fonts/fontawesome-webfont.ttf lib/fonts/fontawesome-webfont.ttf font/ttf
+2022-02-19 13:18:25.785  - [32minfo[39m: host.46e40508c240 iobroker upload [10] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/fonts/fontawesome-webfont.svg lib/fonts/fontawesome-webfont.svg image/svg+xml
+2022-02-19 13:18:25.873  - [32minfo[39m: host.46e40508c240 iobroker upload [9] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/fonts/fontawesome-webfont.eot lib/fonts/fontawesome-webfont.eot application/vnd.ms-fontobject
+2022-02-19 13:18:25.945  - [32minfo[39m: host.46e40508c240 iobroker upload [8] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/fonts/FontAwesome.otf lib/fonts/FontAwesome.otf font/otf
+2022-02-19 13:18:26.012  - [32minfo[39m: host.46e40508c240 iobroker upload [7] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/data/infoData.json lib/data/infoData.json application/json
+2022-02-19 13:18:26.152  - [32minfo[39m: host.46e40508c240 iobroker upload [6] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/css/simplemde.min.css lib/css/simplemde.min.css text/css
+2022-02-19 13:18:26.214  - [32minfo[39m: host.46e40508c240 iobroker upload [5] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/css/info.css lib/css/info.css text/css
+2022-02-19 13:18:26.276  - [32minfo[39m: host.46e40508c240 iobroker upload [4] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/css/font-awesome.min.css lib/css/font-awesome.min.css text/css
+2022-02-19 13:18:26.341  - [32minfo[39m: host.46e40508c240 iobroker upload [3] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/css/chartist.min.css lib/css/chartist.min.css text/css
+2022-02-19 13:18:26.402  - [32minfo[39m: host.46e40508c240 iobroker upload [2] info.admin /opt/iobroker/node_modules/iobroker.info/admin/lib/css/bootstrap.min.css lib/css/bootstrap.min.css text/css
+2022-02-19 13:18:26.466  - [32minfo[39m: host.46e40508c240 iobroker upload [1] info.admin /opt/iobroker/node_modules/iobroker.info/admin/info.png info.png image/png
+2022-02-19 13:18:26.531  - [32minfo[39m: host.46e40508c240 iobroker upload [0] info.admin /opt/iobroker/node_modules/iobroker.info/admin/index_m.html index_m.html text/html
+2022-02-19 13:18:26.657  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.info created/updated
+2022-02-19 13:18:27.749  - [32minfo[39m: host.46e40508c240 iobroker exit 0
+2022-02-19 13:18:28.148  - [32minfo[39m: host.46e40508c240 Set hostname 46e40508c240 for system.adapter.info.0
+2022-02-19 13:18:28.202  - [32minfo[39m: host.46e40508c240 instance system.adapter.info.0 started with pid 2067
+2022-02-19 13:18:28.991  - [32minfo[39m: host.46e40508c240 iobroker install javascript
+2022-02-19 13:18:32.410  - [32minfo[39m: info.0 (2067) starting. Version 1.9.8 in /opt/iobroker/node_modules/iobroker.info, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 13:18:32.572  - [32minfo[39m: info.0 (2067) Reading/updating systemdata.
+2022-02-19 13:18:32.940  - [32minfo[39m: host.46e40508c240 iobroker NPM version: 6.14.16
+2022-02-19 13:18:32.945  - [32minfo[39m: host.46e40508c240 iobroker npm install iobroker.javascript@5.2.21 --loglevel error --prefix "/opt/iobroker" (System call)
+2022-02-19 13:18:33.820  - [32minfo[39m: info.0 (2067) cpu Temp res = {"main":50.634,"cores":[],"max":50.634,"socket":[],"chipset":null}
+2022-02-19 13:19:15.375  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 install adapter javascript
+2022-02-19 13:19:17.092  - [32minfo[39m: host.46e40508c240 iobroker upload [100] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/vs/language/typescript/tsMode.js vs/language/typescript/tsMode.js application/javascript
+2022-02-19 13:19:17.794  - [32minfo[39m: host.46e40508c240 iobroker upload [90] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/vs/editor/editor.main.nls.ja.js vs/editor/editor.main.nls.ja.js application/javascript
+2022-02-19 13:19:18.846  - [32minfo[39m: host.46e40508c240 iobroker upload [80] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/vs/basic-languages/html/html.js vs/basic-languages/html/html.js application/javascript
+2022-02-19 13:19:19.576  - [32minfo[39m: host.46e40508c240 iobroker upload [70] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/static/js/2.b7bbd921.chunk.js.map static/js/2.b7bbd921.chunk.js.map application/json
+2022-02-19 13:19:29.591  - [32minfo[39m: host.46e40508c240 iobroker upload [60] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/index_m.html index_m.html text/html
+2022-02-19 13:19:30.180  - [32minfo[39m: host.46e40508c240 iobroker upload [50] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/own/msg/de.js google-blockly/own/msg/de.js application/javascript
+2022-02-19 13:19:30.794  - [32minfo[39m: host.46e40508c240 iobroker upload [40] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/own/blocks_sendto.js google-blockly/own/blocks_sendto.js application/javascript
+2022-02-19 13:19:31.387  - [32minfo[39m: host.46e40508c240 iobroker upload [30] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/msg/js/it.js google-blockly/msg/js/it.js application/javascript
+2022-02-19 13:19:32.008  - [32minfo[39m: host.46e40508c240 iobroker upload [20] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/handopen.cur google-blockly/media/handopen.cur null
+2022-02-19 13:19:32.074  - [32minfo[39m: host.46e40508c240 iobroker upload [19] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/handdelete.cur google-blockly/media/handdelete.cur null
+2022-02-19 13:19:32.139  - [32minfo[39m: host.46e40508c240 iobroker upload [18] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/handclosed.cur google-blockly/media/handclosed.cur null
+2022-02-19 13:19:32.204  - [32minfo[39m: host.46e40508c240 iobroker upload [17] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/dropdown-arrow.svg google-blockly/media/dropdown-arrow.svg image/svg+xml
+2022-02-19 13:19:32.269  - [32minfo[39m: host.46e40508c240 iobroker upload [16] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/disconnect.wav google-blockly/media/disconnect.wav audio/wav
+2022-02-19 13:19:32.335  - [32minfo[39m: host.46e40508c240 iobroker upload [15] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/disconnect.ogg google-blockly/media/disconnect.ogg audio/ogg
+2022-02-19 13:19:32.402  - [32minfo[39m: host.46e40508c240 iobroker upload [14] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/disconnect.mp3 google-blockly/media/disconnect.mp3 audio/mpeg
+2022-02-19 13:19:32.466  - [32minfo[39m: host.46e40508c240 iobroker upload [13] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/delete.wav google-blockly/media/delete.wav audio/wav
+2022-02-19 13:19:32.532  - [32minfo[39m: host.46e40508c240 iobroker upload [12] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/delete.ogg google-blockly/media/delete.ogg audio/ogg
+2022-02-19 13:19:32.595  - [32minfo[39m: host.46e40508c240 iobroker upload [11] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/delete.mp3 google-blockly/media/delete.mp3 audio/mpeg
+2022-02-19 13:19:32.657  - [32minfo[39m: host.46e40508c240 iobroker upload [10] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/click.wav google-blockly/media/click.wav audio/wav
+2022-02-19 13:19:32.720  - [32minfo[39m: host.46e40508c240 iobroker upload [9] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/click.ogg google-blockly/media/click.ogg audio/ogg
+2022-02-19 13:19:32.780  - [32minfo[39m: host.46e40508c240 iobroker upload [8] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/click.mp3 google-blockly/media/click.mp3 audio/mpeg
+2022-02-19 13:19:32.843  - [32minfo[39m: host.46e40508c240 iobroker upload [7] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/media/1x1.gif google-blockly/media/1x1.gif image/gif
+2022-02-19 13:19:32.907  - [32minfo[39m: host.46e40508c240 iobroker upload [6] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/javascript_compressed.js google-blockly/javascript_compressed.js application/javascript
+2022-02-19 13:19:32.970  - [32minfo[39m: host.46e40508c240 iobroker upload [5] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/blocks_compressed.js google-blockly/blocks_compressed.js application/javascript
+2022-02-19 13:19:33.035  - [32minfo[39m: host.46e40508c240 iobroker upload [4] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/blockly_compressed.js google-blockly/blockly_compressed.js application/javascript
+2022-02-19 13:19:33.125  - [32minfo[39m: host.46e40508c240 iobroker upload [3] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/google-blockly/LICENSE google-blockly/LICENSE null
+2022-02-19 13:19:33.191  - [32minfo[39m: host.46e40508c240 iobroker upload [2] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/favicon.ico favicon.ico image/vnd.microsoft.icon
+2022-02-19 13:19:33.328  - [32minfo[39m: host.46e40508c240 iobroker upload [1] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/asset-manifest.json asset-manifest.json application/json
+2022-02-19 13:19:33.389  - [32minfo[39m: host.46e40508c240 iobroker upload [0] javascript.admin /opt/iobroker/node_modules/iobroker.javascript/admin/adminWords.js adminWords.js application/javascript
+2022-02-19 13:19:33.508  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.javascript created/updated
+2022-02-19 13:19:33.515  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object script.js.global created/updated
+2022-02-19 13:19:33.522  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object script.js.common created/updated
+2022-02-19 13:19:33.530  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object script.js created/updated
+2022-02-19 13:19:33.539  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object _design/script created/updated
+2022-02-19 13:19:34.674  - [32minfo[39m: host.46e40508c240 iobroker exit 0
+2022-02-19 13:19:35.964  - [32minfo[39m: host.46e40508c240 Set hostname 46e40508c240 for system.adapter.javascript.0
+2022-02-19 13:19:36.044  - [32minfo[39m: host.46e40508c240 instance system.adapter.javascript.0 started with pid 2473
+2022-02-19 13:19:39.846  - [32minfo[39m: javascript.0 (2473) starting. Version 5.2.21 in /opt/iobroker/node_modules/iobroker.javascript, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 13:19:40.000  - [32minfo[39m: javascript.0 (2473) requesting all states
+2022-02-19 13:19:40.002  - [32minfo[39m: javascript.0 (2473) requesting all objects
+2022-02-19 13:19:40.377  - [32minfo[39m: javascript.0 (2473) received all objects
+2022-02-19 13:19:40.421  - [32minfo[39m: javascript.0 (2473) received all states
+2022-02-19 13:22:40.948  - [32minfo[39m: host.46e40508c240 iobroker add mqtt --host 46e40508c240 
+2022-02-19 13:22:44.515  - [32minfo[39m: host.46e40508c240 iobroker NPM version: 6.14.16
+2022-02-19 13:22:44.543  - [32minfo[39m: host.46e40508c240 iobroker npm install iobroker.mqtt@2.4.1 --loglevel error --prefix "/opt/iobroker" (System call)
+2022-02-19 13:23:16.125  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 install adapter mqtt
+2022-02-19 13:23:16.204  - [32minfo[39m: host.46e40508c240 iobroker upload [3] mqtt.admin /opt/iobroker/node_modules/iobroker.mqtt/admin/words.js words.js application/javascript
+2022-02-19 13:23:16.313  - [32minfo[39m: host.46e40508c240 iobroker upload [2] mqtt.admin /opt/iobroker/node_modules/iobroker.mqtt/admin/mqtt.png mqtt.png image/png
+2022-02-19 13:23:16.374  - [32minfo[39m: host.46e40508c240 iobroker upload [1] mqtt.admin /opt/iobroker/node_modules/iobroker.mqtt/admin/index_m.html index_m.html text/html
+2022-02-19 13:23:16.443  - [32minfo[39m: host.46e40508c240 iobroker upload [0] mqtt.admin /opt/iobroker/node_modules/iobroker.mqtt/admin/index.html index.html text/html
+2022-02-19 13:23:16.867  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt created/updated
+2022-02-19 13:23:16.923  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 create instance mqtt
+2022-02-19 13:23:16.933  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object mqtt.0.info.connection created
+2022-02-19 13:23:16.963  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object mqtt.0.info created
+2022-02-19 13:23:16.995  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.logLevel created
+2022-02-19 13:23:17.026  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.sigKill created
+2022-02-19 13:23:17.058  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.eventLoopLag created
+2022-02-19 13:23:17.090  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.outputCount created
+2022-02-19 13:23:17.122  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.inputCount created
+2022-02-19 13:23:17.156  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.uptime created
+2022-02-19 13:23:17.186  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.memRss created
+2022-02-19 13:23:17.218  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.memHeapTotal created
+2022-02-19 13:23:17.251  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.memHeapUsed created
+2022-02-19 13:23:17.284  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.cputime created
+2022-02-19 13:23:17.318  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.cpu created
+2022-02-19 13:23:17.351  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.compactMode created
+2022-02-19 13:23:17.387  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.connected created
+2022-02-19 13:23:17.420  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0.alive created
+2022-02-19 13:23:17.462  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 Set default value of mqtt.0.info.connection: false
+2022-02-19 13:23:17.523  - [32minfo[39m: host.46e40508c240 iobroker host.46e40508c240 object system.adapter.mqtt.0 created
+2022-02-19 13:23:18.563  - [32minfo[39m: host.46e40508c240 iobroker exit 0
+2022-02-19 14:08:05.344  - [32minfo[39m: host.46e40508c240 "system.adapter.mqtt.0" enabled
+2022-02-19 14:08:05.461  - [32minfo[39m: host.46e40508c240 instance system.adapter.mqtt.0 started with pid 4887
+2022-02-19 14:08:07.480  - [32minfo[39m: mqtt.0 (4887) starting. Version 2.4.1 in /opt/iobroker/node_modules/iobroker.mqtt, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:08:07.770  - [32minfo[39m: mqtt.0 (4887) Try to connect to mqtt://mqtt_user:*******************@localhost:1883?clientId=iobroker.mqtt.0
+2022-02-19 14:11:50.402  - [32minfo[39m: host.46e40508c240 stopInstance system.adapter.mqtt.0 (force=false, process=true)
+2022-02-19 14:11:50.411  - [32minfo[39m: host.46e40508c240 stopInstance system.adapter.mqtt.0 send kill signal
+2022-02-19 14:11:50.428  - [32minfo[39m: mqtt.0 (4887) Got terminate signal TERMINATE_YOURSELF
+2022-02-19 14:11:50.956  - [32minfo[39m: mqtt.0 (4887) terminating
+2022-02-19 14:11:50.958  - [32minfo[39m: mqtt.0 (4887) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-02-19 14:11:51.414  - [32minfo[39m: host.46e40508c240 stopInstance system.adapter.mqtt.0 killing pid 4887
+2022-02-19 14:11:51.554  - [32minfo[39m: host.46e40508c240 instance system.adapter.mqtt.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2022-02-19 14:11:53.471  - [32minfo[39m: host.46e40508c240 instance system.adapter.mqtt.0 started with pid 5091
+2022-02-19 14:11:55.496  - [32minfo[39m: mqtt.0 (5091) starting. Version 2.4.1 in /opt/iobroker/node_modules/iobroker.mqtt, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:11:55.828  - [32minfo[39m: mqtt.0 (5091) Try to connect to mqtt://mqtt_user:*******************@localhost:1883?clientId=iobroker.mqtt.0
+2022-02-19 14:14:00.113  - [32minfo[39m: host.46e40508c240 stopInstance system.adapter.mqtt.0 (force=false, process=true)
+2022-02-19 14:14:00.147  - [32minfo[39m: host.46e40508c240 stopInstance system.adapter.mqtt.0 send kill signal
+2022-02-19 14:14:00.174  - [32minfo[39m: mqtt.0 (5091) Got terminate signal TERMINATE_YOURSELF
+2022-02-19 14:14:00.686  - [32minfo[39m: mqtt.0 (5091) terminating
+2022-02-19 14:14:00.689  - [32minfo[39m: mqtt.0 (5091) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-02-19 14:14:01.153  - [32minfo[39m: host.46e40508c240 stopInstance system.adapter.mqtt.0 killing pid 5091
+2022-02-19 14:14:01.268  - [32minfo[39m: host.46e40508c240 instance system.adapter.mqtt.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2022-02-19 14:14:03.219  - [32minfo[39m: host.46e40508c240 instance system.adapter.mqtt.0 started with pid 5219
+2022-02-19 14:14:05.367  - [32minfo[39m: mqtt.0 (5219) starting. Version 2.4.1 in /opt/iobroker/node_modules/iobroker.mqtt, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:14:05.740  - [32minfo[39m: mqtt.0 (5219) Try to connect to mqtt://mqtt_user:*******************@localhost:1883?clientId=iobroker.mqtt.0
+2022-02-19 14:15:37.380  - [31merror[39m: admin.0 (1576) failed connection to socket.io from ::ffff:192.168.178.54:
+2022-02-19 14:15:37.393  - [31merror[39m: admin.0 (1576) error
+2022-02-19 14:44:47.176  - [32minfo[39m: host.raspismarthome iobroker.js-controller version 3.3.22 js-controller starting
+2022-02-19 14:44:47.185  - [32minfo[39m: host.raspismarthome Copyright (c) 2014-2021 bluefox, 2014 hobbyquaker
+2022-02-19 14:44:47.186  - [32minfo[39m: host.raspismarthome hostname: raspismarthome, node: v14.19.0
+2022-02-19 14:44:47.186  - [32minfo[39m: host.raspismarthome ip addresses: 192.168.178.44 2003:e9:d749:ad00:b007:d83c:8fd5:f0a8 fe80::8c62:aaeb:3f67:2489
+2022-02-19 14:44:47.625  - [32minfo[39m: host.raspismarthome connected to Objects and States
+2022-02-19 14:44:47.656  - [32minfo[39m: host.raspismarthome added notifications configuration of host
+2022-02-19 14:44:48.117  - [32minfo[39m: host.raspismarthome Delete host system.host.raspismarthome
+2022-02-19 14:44:48.204  - [32minfo[39m: host.raspismarthome 7 instances found
+2022-02-19 14:44:48.228  - [32minfo[39m: host.raspismarthome starting 6 instances
+2022-02-19 14:44:48.296  - [32minfo[39m: host.raspismarthome instance system.adapter.admin.0 started with pid 528
+2022-02-19 14:44:50.726  - [32minfo[39m: admin.0 (528) starting. Version 5.2.3 in /opt/iobroker/node_modules/iobroker.admin, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:44:50.799  - [32minfo[39m: admin.0 (528) requesting all states
+2022-02-19 14:44:50.800  - [32minfo[39m: admin.0 (528) requesting all objects
+2022-02-19 14:44:51.229  - [32minfo[39m: admin.0 (528) received all objects
+2022-02-19 14:44:51.601  - [32minfo[39m: admin.0 (528) http server listening on port 8081
+2022-02-19 14:44:51.603  - [32minfo[39m: admin.0 (528) Use link "http://localhost:8081" to configure.
+2022-02-19 14:44:52.279  - [32minfo[39m: host.raspismarthome instance system.adapter.javascript.0 started with pid 543
+2022-02-19 14:44:55.809  - [32minfo[39m: javascript.0 (543) starting. Version 5.2.21 in /opt/iobroker/node_modules/iobroker.javascript, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:44:55.955  - [32minfo[39m: javascript.0 (543) requesting all states
+2022-02-19 14:44:55.957  - [32minfo[39m: javascript.0 (543) requesting all objects
+2022-02-19 14:44:56.266  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 started with pid 558
+2022-02-19 14:44:56.345  - [32minfo[39m: javascript.0 (543) received all objects
+2022-02-19 14:44:56.372  - [32minfo[39m: javascript.0 (543) received all states
+2022-02-19 14:44:58.358  - [32minfo[39m: mqtt.0 (558) starting. Version 2.4.1 in /opt/iobroker/node_modules/iobroker.mqtt, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:44:58.679  - [32minfo[39m: mqtt.0 (558) Try to connect to mqtt://mqtt_user:*******************@localhost:1883?clientId=iobroker.mqtt.0
+2022-02-19 14:44:58.832  - [32minfo[39m: mqtt.0 (558) Connected to localhost
+2022-02-19 14:44:58.835  - [32minfo[39m: mqtt.0 (558) Subscribe on: "#"
+2022-02-19 14:44:58.856  - [32minfo[39m: mqtt.0 (558) All states published
+2022-02-19 14:45:00.280  - [32minfo[39m: host.raspismarthome instance system.adapter.discovery.0 started with pid 586
+2022-02-19 14:45:02.376  - [32minfo[39m: discovery.0 (586) starting. Version 2.7.3 in /opt/iobroker/node_modules/iobroker.discovery, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:45:04.264  - [32minfo[39m: host.raspismarthome instance system.adapter.backitup.0 started with pid 601
+2022-02-19 14:45:06.715  - [32minfo[39m: backitup.0 (601) starting. Version 2.2.3 in /opt/iobroker/node_modules/iobroker.backitup, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:45:06.823  - [32minfo[39m: backitup.0 (601) [iobroker] backup was activated at 02:40 every 1 day(s)
+2022-02-19 14:45:08.286  - [32minfo[39m: host.raspismarthome instance system.adapter.info.0 started with pid 616
+2022-02-19 14:45:10.534  - [33mwarn[39m: admin.0 (528) Cannot parse "undefined"
+2022-02-19 14:45:10.541  - [31merror[39m: admin.0 (528) error
+2022-02-19 14:45:10.588  - [33mwarn[39m: admin.0 (528) Cannot parse "undefined"
+2022-02-19 14:45:12.190  - [32minfo[39m: info.0 (616) starting. Version 1.9.8 in /opt/iobroker/node_modules/iobroker.info, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:45:12.346  - [32minfo[39m: info.0 (616) Reading/updating systemdata.
+2022-02-19 14:45:13.186  - [32minfo[39m: info.0 (616) cpu Temp res = {"main":50.634,"cores":[],"max":50.634,"socket":[],"chipset":null}
+2022-02-19 14:45:56.941  - [31merror[39m: admin.0 (528) failed connection to socket.io from ::ffff:192.168.178.54:
+2022-02-19 14:45:56.943  - [31merror[39m: admin.0 (528) error
+2022-02-19 14:45:57.037  - [31merror[39m: admin.0 (528) failed connection to socket.io from ::ffff:192.168.178.54:
+2022-02-19 14:45:57.039  - [31merror[39m: admin.0 (528) error
+2022-02-19 14:46:37.075  - [31merror[39m: admin.0 (528) failed connection to socket.io from 2003:e9:d749:ad00:64a4:81ba:631f:8d4e:
+2022-02-19 14:46:37.077  - [31merror[39m: admin.0 (528) error
+2022-02-19 14:46:37.186  - [31merror[39m: admin.0 (528) failed connection to socket.io from 2003:e9:d749:ad00:64a4:81ba:631f:8d4e:
+2022-02-19 14:46:37.187  - [31merror[39m: admin.0 (528) error
+2022-02-19 14:47:19.510  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 (force=false, process=true)
+2022-02-19 14:47:19.531  - [32minfo[39m: mqtt.0 (558) Got terminate signal TERMINATE_YOURSELF
+2022-02-19 14:47:19.552  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 send kill signal
+2022-02-19 14:47:19.550  - [32minfo[39m: mqtt.0 (558) Disconnected from localhost: undefined
+2022-02-19 14:47:20.038  - [32minfo[39m: mqtt.0 (558) terminating
+2022-02-19 14:47:20.041  - [32minfo[39m: mqtt.0 (558) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-02-19 14:47:20.560  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 killing pid 558
+2022-02-19 14:47:20.633  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2022-02-19 14:47:22.622  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 started with pid 1028
+2022-02-19 14:47:25.025  - [32minfo[39m: mqtt.0 (1028) starting. Version 2.4.1 in /opt/iobroker/node_modules/iobroker.mqtt, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 14:47:25.368  - [32minfo[39m: mqtt.0 (1028) Try to connect to mqtt://mqtt_user:*******************@localhost:1883?clientId=iobroker.mqtt.0
+2022-02-19 14:47:25.497  - [32minfo[39m: mqtt.0 (1028) Connected to localhost
+2022-02-19 14:47:25.501  - [32minfo[39m: mqtt.0 (1028) Subscribe on: "#"
+2022-02-19 14:47:25.638  - [32minfo[39m: mqtt.0 (1028) All states published
+2022-02-19 15:05:30.581  - [32minfo[39m: host.raspismarthome Updating repository "default" under "http://download.iobroker.net/sources-dist.json"
+2022-02-19 15:09:08.359  - [32minfo[39m: host.raspismarthome iobroker add go-e --host raspismarthome 
+2022-02-19 15:09:11.869  - [32minfo[39m: host.raspismarthome iobroker NPM version: 6.14.16
+2022-02-19 15:09:11.873  - [32minfo[39m: host.raspismarthome iobroker npm install iobroker.go-e@1.0.18 --loglevel error --prefix "/opt/iobroker" (System call)
+2022-02-19 15:09:36.286  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome install adapter go-e
+2022-02-19 15:09:36.352  - [32minfo[39m: host.raspismarthome iobroker upload [9] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/words.js words.js application/javascript
+2022-02-19 15:09:36.470  - [32minfo[39m: host.raspismarthome iobroker upload [8] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/style.css style.css text/css
+2022-02-19 15:09:36.533  - [32minfo[39m: host.raspismarthome iobroker upload [7] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/schrift.png schrift.png image/png
+2022-02-19 15:09:36.645  - [32minfo[39m: host.raspismarthome iobroker upload [6] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/index_m.js index_m.js application/javascript
+2022-02-19 15:09:36.709  - [32minfo[39m: host.raspismarthome iobroker upload [5] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/index_m.html index_m.html text/html
+2022-02-19 15:09:36.770  - [32minfo[39m: host.raspismarthome iobroker upload [4] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/img/info-big.png img/info-big.png image/png
+2022-02-19 15:09:36.834  - [32minfo[39m: host.raspismarthome iobroker upload [3] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/go-echarger.xcf go-echarger.xcf null
+2022-02-19 15:09:36.904  - [32minfo[39m: host.raspismarthome iobroker upload [2] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/go-echarger.png go-echarger.png image/png
+2022-02-19 15:09:36.967  - [32minfo[39m: host.raspismarthome iobroker upload [1] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/go-eCharger-HOME-Wallbox.png go-eCharger-HOME-Wallbox.png image/png
+2022-02-19 15:09:37.034  - [32minfo[39m: host.raspismarthome iobroker upload [0] go-e.admin /opt/iobroker/node_modules/iobroker.go-e/admin/admin.d.ts admin.d.ts video/mp2t
+2022-02-19 15:09:37.204  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e created/updated
+2022-02-19 15:09:37.322  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome create instance go-e
+2022-02-19 15:09:37.333  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.changeAmpLevelInWatts created
+2022-02-19 15:09:37.364  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.max_watts created
+2022-02-19 15:09:37.394  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.mqtt.connection created
+2022-02-19 15:09:37.424  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.mqtt.key created
+2022-02-19 15:09:37.455  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.mqtt.user created
+2022-02-19 15:09:37.490  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.mqtt.port created
+2022-02-19 15:09:37.524  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.mqtt.server created
+2022-02-19 15:09:37.560  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.mqtt.enabled created
+2022-02-19 15:09:37.591  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.mqtt created
+2022-02-19 15:09:37.623  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.finish_idle_sec created
+2022-02-19 15:09:37.658  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.ampere created
+2022-02-19 15:09:37.689  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.fallback_ampere created
+2022-02-19 15:09:37.722  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.amount_wallboxes created
+2022-02-19 15:09:37.754  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.group_id created
+2022-02-19 15:09:37.785  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.priority created
+2022-02-19 15:09:37.816  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.min_ampere created
+2022-02-19 15:09:37.849  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.group_ampere created
+2022-02-19 15:09:37.881  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management.enabled created
+2022-02-19 15:09:37.920  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.power_management created
+2022-02-19 15:09:37.951  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.10.name created
+2022-02-19 15:09:37.984  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.10.name created
+2022-02-19 15:09:38.016  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.9.name created
+2022-02-19 15:09:38.049  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.8.name created
+2022-02-19 15:09:38.081  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.7.name created
+2022-02-19 15:09:38.112  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.6.name created
+2022-02-19 15:09:38.144  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.5.name created
+2022-02-19 15:09:38.174  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.4.name created
+2022-02-19 15:09:38.206  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.3.name created
+2022-02-19 15:09:38.238  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.2.name created
+2022-02-19 15:09:38.268  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.1.name created
+2022-02-19 15:09:38.299  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.10.id created
+2022-02-19 15:09:38.329  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.9.id created
+2022-02-19 15:09:38.360  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.8.id created
+2022-02-19 15:09:38.391  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.7.id created
+2022-02-19 15:09:38.421  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.6.id created
+2022-02-19 15:09:38.452  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.5.id created
+2022-02-19 15:09:38.483  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.4.id created
+2022-02-19 15:09:38.513  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.3.id created
+2022-02-19 15:09:38.544  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.2.id created
+2022-02-19 15:09:38.574  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.1.id created
+2022-02-19 15:09:38.605  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.10.consumption created
+2022-02-19 15:09:38.636  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.9.consumption created
+2022-02-19 15:09:38.667  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.8.consumption created
+2022-02-19 15:09:38.699  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.7.consumption created
+2022-02-19 15:09:38.730  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.6.consumption created
+2022-02-19 15:09:38.761  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.5.consumption created
+2022-02-19 15:09:38.792  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.4.consumption created
+2022-02-19 15:09:38.823  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.3.consumption created
+2022-02-19 15:09:38.854  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.2.consumption created
+2022-02-19 15:09:38.884  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.1.consumption created
+2022-02-19 15:09:38.915  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.scheduler_double_press created
+2022-02-19 15:09:38.946  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.scheduler_settings created
+2022-02-19 15:09:38.976  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.norway_mode created
+2022-02-19 15:09:39.006  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.electricity_exchange.balance_time created
+2022-02-19 15:09:39.037  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.http_flags created
+2022-02-19 15:09:39.069  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.wifi.hotspot_key created
+2022-02-19 15:09:39.104  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.unlock_state created
+2022-02-19 15:09:39.137  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.color.led_save_energy created
+2022-02-19 15:09:39.170  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.color.finish created
+2022-02-19 15:09:39.203  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.color.charging created
+2022-02-19 15:09:39.236  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.color.idle created
+2022-02-19 15:09:39.268  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.ampere_level5 created
+2022-02-19 15:09:39.301  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.ampere_level4 created
+2022-02-19 15:09:39.332  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.ampere_level3 created
+2022-02-19 15:09:39.364  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.ampere_level2 created
+2022-02-19 15:09:39.397  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.ampere_level1 created
+2022-02-19 15:09:39.429  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.max_ampere created
+2022-02-19 15:09:39.462  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.electricity_exchange.price_zone created
+2022-02-19 15:09:39.494  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.electricity_exchange.finish_hour created
+2022-02-19 15:09:39.527  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.electricity_exchange.min_hours created
+2022-02-19 15:09:39.559  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.electricity_exchange created
+2022-02-19 15:09:39.593  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.color.led_brightness created
+2022-02-19 15:09:39.626  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.time_daylight_saving created
+2022-02-19 15:09:39.660  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.time_offset created
+2022-02-19 15:09:39.692  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.cloud_disabled created
+2022-02-19 15:09:39.725  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.wifi.enabled created
+2022-02-19 15:09:39.757  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.wifi.key created
+2022-02-19 15:09:39.790  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.wifi.ssid created
+2022-02-19 15:09:39.822  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.serial_number created
+2022-02-19 15:09:39.855  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.firmware_version created
+2022-02-19 15:09:39.888  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.neutral.power_coefficient created
+2022-02-19 15:09:39.921  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase3.power_coefficient created
+2022-02-19 15:09:39.954  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase2.power_coefficient created
+2022-02-19 15:09:39.986  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase1.power_coefficient created
+2022-02-19 15:09:40.017  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.power created
+2022-02-19 15:09:40.050  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.neutral.power created
+2022-02-19 15:09:40.090  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase3.power created
+2022-02-19 15:09:40.119  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase2.power created
+2022-02-19 15:09:40.151  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase1.power created
+2022-02-19 15:09:40.182  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase3.ampere created
+2022-02-19 15:09:40.212  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase2.ampere created
+2022-02-19 15:09:40.242  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase1.ampere created
+2022-02-19 15:09:40.273  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.neutral.voltage created
+2022-02-19 15:09:40.305  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase3.voltage created
+2022-02-19 15:09:40.335  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase2.voltage created
+2022-02-19 15:09:40.365  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase1.voltage created
+2022-02-19 15:09:40.395  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.transmit_interface created
+2022-02-19 15:09:40.425  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.wifi.state created
+2022-02-19 15:09:40.455  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.wifi created
+2022-02-19 15:09:40.485  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.total created
+2022-02-19 15:09:40.516  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.unlocked_by created
+2022-02-19 15:09:40.546  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.adapter_in created
+2022-02-19 15:09:40.577  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.max_load created
+2022-02-19 15:09:40.607  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.loaded_energy_kwh created
+2022-02-19 15:09:40.643  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.loaded_energy created
+2022-02-19 15:09:40.674  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.avail_ampere created
+2022-02-19 15:09:40.713  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.temperatures.tempereature4 created
+2022-02-19 15:09:40.743  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.temperatures.tempereature3 created
+2022-02-19 15:09:40.774  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.temperatures.tempereature2 created
+2022-02-19 15:09:40.805  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.temperatures.tempereature1 created
+2022-02-19 15:09:40.838  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.temperatures.tempereatureArray created
+2022-02-19 15:09:40.870  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.temperatures.maintempereature created
+2022-02-19 15:09:40.912  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.adjustAmpLevelInWatts created
+2022-02-19 15:09:40.943  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase3.postContactorActive created
+2022-02-19 15:09:40.973  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase3.preContactorActive created
+2022-02-19 15:09:41.004  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase2.postContactorActive created
+2022-02-19 15:09:41.034  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase2.preContactorActive created
+2022-02-19 15:09:41.066  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase1.postContactorActive created
+2022-02-19 15:09:41.098  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase1.preContactorActive created
+2022-02-19 15:09:41.130  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.phases created
+2022-02-19 15:09:41.160  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.cable_ampere_code created
+2022-02-19 15:09:41.190  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.stop_state created
+2022-02-19 15:09:41.223  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.allow_charging created
+2022-02-19 15:09:41.254  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.access_state created
+2022-02-19 15:09:41.284  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.error created
+2022-02-19 15:09:41.315  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.amperePV created
+2022-02-19 15:09:41.444  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.ampere created
+2022-02-19 15:09:41.491  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.car created
+2022-02-19 15:09:41.522  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.reboot_timer created
+2022-02-19 15:09:41.552  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.reboot_counter created
+2022-02-19 15:09:41.582  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.synctime created
+2022-02-19 15:09:41.613  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.encryption created
+2022-02-19 15:09:41.644  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.stateObject created
+2022-02-19 15:09:41.674  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.10 created
+2022-02-19 15:09:41.704  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.9 created
+2022-02-19 15:09:41.734  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.8 created
+2022-02-19 15:09:41.764  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.7 created
+2022-02-19 15:09:41.794  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.6 created
+2022-02-19 15:09:41.824  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.5 created
+2022-02-19 15:09:41.854  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.4 created
+2022-02-19 15:09:41.884  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.3 created
+2022-02-19 15:09:41.914  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.2 created
+2022-02-19 15:09:41.944  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges.1 created
+2022-02-19 15:09:41.974  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid.badges created
+2022-02-19 15:09:42.004  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.rfid created
+2022-02-19 15:09:42.034  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.neutral created
+2022-02-19 15:09:42.064  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase3 created
+2022-02-19 15:09:42.096  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase2 created
+2022-02-19 15:09:42.127  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy.phase1 created
+2022-02-19 15:09:42.156  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.temperatures created
+2022-02-19 15:09:42.185  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.energy created
+2022-02-19 15:09:42.215  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings.color created
+2022-02-19 15:09:42.245  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.settings created
+2022-02-19 15:09:42.280  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object go-e.0.info.connection created
+2022-02-19 15:09:42.319  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.logLevel created
+2022-02-19 15:09:42.353  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.sigKill created
+2022-02-19 15:09:42.387  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.eventLoopLag created
+2022-02-19 15:09:42.432  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.outputCount created
+2022-02-19 15:09:42.465  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.inputCount created
+2022-02-19 15:09:42.498  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.uptime created
+2022-02-19 15:09:42.532  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.memRss created
+2022-02-19 15:09:42.568  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.memHeapTotal created
+2022-02-19 15:09:42.601  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.memHeapUsed created
+2022-02-19 15:09:42.634  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.cputime created
+2022-02-19 15:09:42.669  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.cpu created
+2022-02-19 15:09:42.701  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.compactMode created
+2022-02-19 15:09:42.734  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.connected created
+2022-02-19 15:09:42.767  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0.alive created
+2022-02-19 15:09:42.801  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome Set default value of go-e.0.info.connection: false
+2022-02-19 15:09:42.903  - [32minfo[39m: host.raspismarthome iobroker host.raspismarthome object system.adapter.go-e.0 created
+2022-02-19 15:09:43.959  - [32minfo[39m: host.raspismarthome iobroker exit 0
+2022-02-19 15:09:45.987  - [32minfo[39m: host.raspismarthome instance system.adapter.go-e.0 started with pid 2180
+2022-02-19 15:09:49.365  - [32minfo[39m: go-e.0 (2180) starting. Version 1.0.18 in /opt/iobroker/node_modules/iobroker.go-e, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 15:09:49.404  - [32minfo[39m: go-e.0 (2180) Server: go-eCharger
+2022-02-19 15:09:49.405  - [32minfo[39m: go-e.0 (2180) Intervall: 60
+2022-02-19 15:09:49.405  - [33mwarn[39m: go-e.0 (2180) Sentry enabled. You can switch it off in settings of the adapter.
+2022-02-19 15:09:49.510  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:10:49.530  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:11:49.526  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:12:49.524  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:13:49.527  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:14:49.524  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:15:49.526  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:16:45.580  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 (force=false, process=true)
+2022-02-19 15:16:45.587  - [32minfo[39m: mqtt.0 (1028) Got terminate signal TERMINATE_YOURSELF
+2022-02-19 15:16:45.593  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 send kill signal
+2022-02-19 15:16:45.601  - [32minfo[39m: mqtt.0 (1028) Disconnected from localhost: undefined
+2022-02-19 15:16:46.092  - [32minfo[39m: mqtt.0 (1028) terminating
+2022-02-19 15:16:46.094  - [32minfo[39m: mqtt.0 (1028) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-02-19 15:16:46.596  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 killing pid 1028
+2022-02-19 15:16:46.701  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2022-02-19 15:16:48.665  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 started with pid 2542
+2022-02-19 15:16:49.525  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:16:50.862  - [32minfo[39m: mqtt.0 (2542) starting. Version 2.4.1 in /opt/iobroker/node_modules/iobroker.mqtt, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 15:16:51.162  - [32minfo[39m: mqtt.0 (2542) Try to connect to mqtt://mqtt_user:*******************@localhost:1883?clientId=iobroker.mqtt.0
+2022-02-19 15:16:51.290  - [32minfo[39m: mqtt.0 (2542) Connected to localhost
+2022-02-19 15:16:51.293  - [32minfo[39m: mqtt.0 (2542) Subscribe on: "#"
+2022-02-19 15:16:51.396  - [32minfo[39m: mqtt.0 (2542) All states published
+2022-02-19 15:17:49.524  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:18:49.526  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:19:49.530  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:20:49.525  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:21:49.527  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:22:49.528  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:23:49.529  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:24:49.526  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:25:49.530  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:26:49.530  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:27:49.526  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:28:49.528  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:29:49.529  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:30:49.527  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:31:49.527  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:32:49.529  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:33:21.245  - [33mwarn[39m: mqtt.0 (2542) Error on mqtt test: Error: Connection refused: Not authorized
+2022-02-19 15:33:49.530  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:34:34.436  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 (force=false, process=true)
+2022-02-19 15:34:34.446  - [32minfo[39m: mqtt.0 (2542) Got terminate signal TERMINATE_YOURSELF
+2022-02-19 15:34:34.452  - [32minfo[39m: mqtt.0 (2542) Disconnected from localhost: undefined
+2022-02-19 15:34:34.494  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 send kill signal
+2022-02-19 15:34:34.950  - [32minfo[39m: mqtt.0 (2542) terminating
+2022-02-19 15:34:34.952  - [32minfo[39m: mqtt.0 (2542) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-02-19 15:34:35.496  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 killing pid 2542
+2022-02-19 15:34:35.537  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2022-02-19 15:34:37.587  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 started with pid 3431
+2022-02-19 15:34:39.560  - [32minfo[39m: mqtt.0 (3431) starting. Version 2.4.1 in /opt/iobroker/node_modules/iobroker.mqtt, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 15:34:39.874  - [32minfo[39m: mqtt.0 (3431) Try to connect to mqtt://mqtt_user:*******************@localhost:1883?clientId=iobroker.mqtt.0
+2022-02-19 15:34:39.986  - [32minfo[39m: mqtt.0 (3431) Connected to localhost
+2022-02-19 15:34:39.989  - [32minfo[39m: mqtt.0 (3431) Subscribe on: "#"
+2022-02-19 15:34:40.377  - [32minfo[39m: mqtt.0 (3431) All states published
+2022-02-19 15:34:44.173  - [33mwarn[39m: mqtt.0 (3431) Error on mqtt test: Error: Connection refused: Not authorized
+2022-02-19 15:34:49.530  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:34:55.845  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 (force=false, process=true)
+2022-02-19 15:34:55.859  - [32minfo[39m: mqtt.0 (3431) Got terminate signal TERMINATE_YOURSELF
+2022-02-19 15:34:55.863  - [32minfo[39m: mqtt.0 (3431) Disconnected from localhost: undefined
+2022-02-19 15:34:55.891  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 send kill signal
+2022-02-19 15:34:56.362  - [32minfo[39m: mqtt.0 (3431) terminating
+2022-02-19 15:34:56.368  - [32minfo[39m: mqtt.0 (3431) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-02-19 15:34:56.894  - [32minfo[39m: host.raspismarthome stopInstance system.adapter.mqtt.0 killing pid 3431
+2022-02-19 15:34:56.960  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 terminated with code 11 (ADAPTER_REQUESTED_TERMINATION)
+2022-02-19 15:34:58.957  - [32minfo[39m: host.raspismarthome instance system.adapter.mqtt.0 started with pid 3459
+2022-02-19 15:35:01.014  - [32minfo[39m: mqtt.0 (3459) starting. Version 2.4.1 in /opt/iobroker/node_modules/iobroker.mqtt, node: v14.19.0, js-controller: 3.3.22
+2022-02-19 15:35:01.374  - [32minfo[39m: mqtt.0 (3459) Try to connect to mqtt://mqtt_user:*******************@localhost:1883?clientId=iobroker.mqtt.0
+2022-02-19 15:35:01.504  - [32minfo[39m: mqtt.0 (3459) Connected to localhost
+2022-02-19 15:35:01.507  - [32minfo[39m: mqtt.0 (3459) Subscribe on: "#"
+2022-02-19 15:35:01.942  - [32minfo[39m: mqtt.0 (3459) All states published
+2022-02-19 15:35:03.366  - [33mwarn[39m: mqtt.0 (3459) Error on mqtt test: Error: Connection refused: Not authorized
+2022-02-19 15:35:49.528  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:36:49.529  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:37:49.531  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:38:49.528  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:39:49.530  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:40:49.531  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:41:49.530  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:42:49.531  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:43:49.531  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger
+2022-02-19 15:44:49.536  - [33mwarn[39m: go-e.0 (2180) Host not found: go-eCharger

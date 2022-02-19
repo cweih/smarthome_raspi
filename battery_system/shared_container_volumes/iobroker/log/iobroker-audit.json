@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "/opt/iobroker/log/iobroker-audit.json",
+    "files": [
+        {
+            "date": 1645271674767,
+            "name": "/opt/iobroker/log/iobroker.2022-02-19.log",
+            "hash": "e6e5e1929133a2f032da4644d5318a61"
+        }
+    ],
+    "hashType": "md5"
+}
