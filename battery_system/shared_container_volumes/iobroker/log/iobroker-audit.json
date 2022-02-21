@@ -9,6 +9,11 @@
             "date": 1645271674767,
             "name": "/opt/iobroker/log/iobroker.2022-02-19.log",
             "hash": "e6e5e1929133a2f032da4644d5318a61"
+        },
+        {
+            "date": 1645441745266,
+            "name": "/opt/iobroker/log/iobroker.2022-02-21.log",
+            "hash": "8d7665d6ad5dda41a558ad1c9d36099e"
         }
     ],
     "hashType": "md5"
